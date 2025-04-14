@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="elhassanmahmoud.rezeptapp.RezeptAppApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-04-14T10:37:10.746Z" hostname="MacBook-Air-von-Mahmoud.local" time="0.488">
+  <properties/>
+  <testcase name="contextLoads()" classname="elhassanmahmoud.rezeptapp.RezeptAppApplicationTests" time="0.488"/>
+  <system-out><![CDATA[12:37:10.162 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [elhassanmahmoud.rezeptapp.RezeptAppApplicationTests]: RezeptAppApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+12:37:10.224 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration elhassanmahmoud.rezeptapp.RezeptAppApplication for test class elhassanmahmoud.rezeptapp.RezeptAppApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.4.4)
+
+2025-04-14T12:37:10.398+02:00  INFO 260 --- [Rezept-App] [    Test worker] e.rezeptapp.RezeptAppApplicationTests    : Starting RezeptAppApplicationTests using Java 21.0.4 with PID 260 (started by elhassanmahmoud in /Users/elhassanmahmoud/Documents/rezept-app)
+2025-04-14T12:37:10.399+02:00  INFO 260 --- [Rezept-App] [    Test worker] e.rezeptapp.RezeptAppApplicationTests    : No active profile set, falling back to 1 default profile: "default"
+2025-04-14T12:37:10.742+02:00  INFO 260 --- [Rezept-App] [    Test worker] e.rezeptapp.RezeptAppApplicationTests    : Started RezeptAppApplicationTests in 0.461 seconds (process running for 1.008)
+]]></system-out>
+  <system-err><![CDATA[Mockito is currently self-attaching to enable the inline-mock-maker. This will no longer work in future releases of the JDK. Please add Mockito as an agent to your build what is described in Mockito's documentation: https://javadoc.io/doc/org.mockito/mockito-core/latest/org/mockito/Mockito.html#0.3
+WARNING: A Java agent has been loaded dynamically (/Users/elhassanmahmoud/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy-agent/1.15.11/a38b16385e867f59a641330f0362ebe742788ed8/byte-buddy-agent-1.15.11.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+]]></system-err>
+</testsuite>
