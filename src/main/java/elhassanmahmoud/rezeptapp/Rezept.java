@@ -21,3 +21,4 @@ public class Rezept {
     @JsonProperty
     private String beschreibung;
 }
+//
