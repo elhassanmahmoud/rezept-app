@@ -1,6 +1,6 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
-import HelloWorld from './components/HelloWorld.vue'
+import RezeptListe from './components/RezeptListe.vue'
 </script>
 
 <template>
@@ -8,7 +8,7 @@ import HelloWorld from './components/HelloWorld.vue'
     <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
 
     <div class="wrapper">
-      <HelloWorld msg="You did it!" />
+      <RezeptListe />
 
       <nav>
         <RouterLink to="/">Home</RouterLink>
@@ -21,6 +21,7 @@ import HelloWorld from './components/HelloWorld.vue'
 </template>
 
 <style scoped>
+/* (dein ganzes Style bleibt gleich, hier ist nichts zu ändern) */
 header {
   line-height: 1.5;
   max-height: 100vh;
